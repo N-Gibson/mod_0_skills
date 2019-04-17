@@ -7,10 +7,12 @@ Attributes:
 			Table request (string) No requests 
 
 Methods: 
-			Table #? The table's number is 16.
+			What is the table #? (assesses the table number based on the location of the table in the restaurant, modifies attribute: table number)
 
 			Can table #16 be seated? Yes, there are no current occupants.
 			
-			Table occupation? The table is not occupied.
+			Can table #__ and #__ be moved together? (assesses whether tables can be combined based on the number of seats and whether or not the tables are occupied, modifies attribute: table occupation, seats per table)
 
-			Table request? No one has requested to sit at this table.
+			How many times has this table been sat this evening? (calculates number of times a table has been sat based on the table occupation at any given time during the evening, modifies attribute: table occupation)
+
+
