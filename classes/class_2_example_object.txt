@@ -1,0 +1,14 @@
+Object: Chicken Parmesan 
+
+Attributes: 
+			Number of ingredient (integer) 4
+			Type of ingredient (string) Chicken, Pasta, Tomato sauce, Cheese
+			Complete (boolean) Yes
+			Input to computer (boolean) Yes
+
+Methods: 
+			How many dishes have been made total? (calculates the total number of dishes made in the restaurant, modifies attribute: complete)
+
+			How many dishes included the wrong number of ingredients? (calculates the number of dishes made with the incorrect number of ingredients ie. too many or not enough, modifies attribute: number of ingredients)
+
+			How many dishes have been made due to computer error? (calculates the number of extra/ not enough dishes made based on the number input into the computer and the number consumed by customers, modifies attribute: input into computer)
