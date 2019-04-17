@@ -1,0 +1,21 @@
+Class: Table
+
+Attributes: 
+			
+			Table number (integer)
+			
+			Seats per table (integer)
+			
+			Table occupation (boolean)
+			
+			Table request (string)
+Methods: 
+			
+			Can table #__ be seated? (calculates whether a table is occupied/ if it can be seated. Modifies table #, Table occupied)
+			
+			How many guests need a seat? (calculates # of guests/ # of seats at table. Modifies seats per table)
+			
+			Is the table occupied (yes/ no answer. Modifies table occupation)
+			
+			Can quest have table #__? (calculates whether or not table is occupied/ whether or not the table has enough seats/ guests. Modifies table number, seats per table, table request)
+
