@@ -1,0 +1,16 @@
+Object: Table #16
+
+Attributes: 
+			Table (integer) #16
+			Seats per table (integer) Eight seats at table 
+			Table occupation (boolean) No
+			Table request (string) No requests 
+
+Methods: 
+			Table #? The table's number is 16.
+
+			Can table #16 be seated? Yes, there are no current occupants.
+			
+			Table occupation? The table is not occupied.
+
+			Table request? No one has requested to sit at this table.
