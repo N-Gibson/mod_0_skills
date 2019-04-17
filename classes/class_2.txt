@@ -1,0 +1,25 @@
+Class: Dish
+
+Attributes: 
+
+			Number of ingredient (integer)
+
+			Type of ingredient (string)
+
+			Complete (boolean)
+
+			Input to computer (boolean)
+
+
+Methods: 
+
+			How many ingredients are in this dish? (the method calculates how many ingredients are in a specific dish, modifies attribute: number of ingredients)
+
+			What ingredients are in this dish? (modifies the kind of ingredients required to make a specific dish, modifies attribute: type of ingredient)
+
+			Has the dish been made? (calculates whether or not a dish is completed, modifies attribute: complete)
+
+			Hasthe dish has been ordered/ finished? (assesses whether or not the dish has been entered into the computer either before or after its been made, modifies attribute: input to computer)
+
+
+
