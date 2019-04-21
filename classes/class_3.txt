@@ -1,0 +1,20 @@
+Class: Park
+
+Attributes: 
+			Number of acre (float)
+
+			Number of tree (integer)
+
+			Playground (boolean)
+
+			Type of tree (array)
+
+Methods:
+			reduce_size (modifies the number of acres in the park)
+
+			log_tree (modifies the number of trees in the park)
+
+			build_playground (modifies the playground attribute)
+
+			add_species (modifies the types of trees in the park)
+
