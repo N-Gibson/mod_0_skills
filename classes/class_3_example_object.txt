@@ -1,0 +1,23 @@
+Object: Washington Park
+
+Attributes: 
+			Number of acre (float) 159.89 acres
+
+			Number of tree (integer) 10,500
+
+			Playground (boolean) No
+
+			Type of tree (array) Maple, Cottonwood, Spruce, Pine
+
+Methods:
+			reduce_size (modifies the number of acres in the park) I am a developer who purchased a corner of the park and am going to build an appartment building. This method would calculate the change in overall acerage based on the size of the park minus the size of land I purchased. 
+			Ex. 159.89 acre - 59.80 acre = 100.09 acres left in park 
+
+			log_tree (modifies the number of trees in the park) I may as well make some profit off the trees I'm cutting to make my appartment building. Method log_tree would calsulate the new total number of trees in the park by subtracting the amount I've cut down from the total number of trees in the park. 
+			Ex. 10,500 - 500 = 10,000 trees left in park
+
+			build_playground (modifies the playground attribute) If boolean comes back yes, don't build playground. If boolean comes back no, build playground. 
+			Ex. No playground in wash park, commence building process 
+
+			add_species (modifies the types of trees in the park) Im going to plant trees in front of my appartment building, adding to the variety of tree species at Washington Park. add_species will change the array to include more trees, such as oak and aspen. 
+			Ex. Array: Maple, Cottonwood, Spruce, Pine, Oak, Aspen 
