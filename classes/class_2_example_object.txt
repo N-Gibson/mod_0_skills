@@ -2,13 +2,19 @@ Object: Chicken Parmesan
 
 Attributes: 
 			Number of ingredient (integer) 4
-			Type of ingredient (string) Chicken, Pasta, Tomato sauce, Cheese
+
+			Type of ingredient (array) Chicken, Pasta, Tomato sauce, Cheese
+
+			Plate (string)
+
 			Complete (boolean) Yes
-			Input to computer (boolean) Yes
+			
 
 Methods: 
-			How many dishes have been made total? (calculates the total number of dishes made in the restaurant, modifies attribute: complete)
+			add_ingredient (modifies 'number of ingredients') Modifies the total number of ingredients to include extra or missing ingredient from integer set.
 
-			How many dishes included the wrong number of ingredients? (calculates the number of dishes made with the incorrect number of ingredients ie. too many or not enough, modifies attribute: number of ingredients)
+			add_ingredient_type (modifies 'type of ingredient') Modifies types of ingredients added ex. + garlic, + parmesan. Based on array of ingredients.
 
-			How many dishes have been made due to computer error? (calculates the number of extra/ not enough dishes made based on the number input into the computer and the number consumed by customers, modifies attribute: input into computer)
+			plate_type (modifies 'plate' attribute) Modifies type of plate ex. -round flat dish, + square beveled dish. Based on string.
+
+			serve_dish (modifies 'complete' attribute) Will calculate result based on boolean response. If no, don't sereve dish. If yes, serve dish. 

@@ -2,17 +2,20 @@ Object: Table #16
 
 Attributes: 
 			Table (integer) #16
+
 			Seats per table (integer) Eight seats at table 
+
 			Table occupation (boolean) No
+
 			Table request (string) No requests 
 
 Methods: 
-			What is the table #? (assesses the table number based on the location of the table in the restaurant, modifies attribute: table number)
+			add_seats (modifies seats per table) Calculates the total number of seats at the table vs the total number of guests. If this number returns negative, add the number of seats needed.
 
-			Can table #16 be seated? Yes, there are no current occupants.
-			
-			Can table #__ and #__ be moved together? (assesses whether tables can be combined based on the number of seats and whether or not the tables are occupied, modifies attribute: table occupation, seats per table)
+			seat_guests (changes table occupation) Changes based on table occupation. If boolean returns: yes, seat table if no, don't seat table. 
 
-			How many times has this table been sat this evening? (calculates number of times a table has been sat based on the table occupation at any given time during the evening, modifies attribute: table occupation)
+			clean (changes hypothetical cleanliness attribute) Modifies cleanliness attribute based on if it meets all criteria in array.
 
+			reserve (adds persons name to hypothetical reservation array) Modifies reservation array based on someones desire to have a specific table. 
 
+			restock (modifies hypothetical table contents array) Modifies table contents array based on whether it meets all criteria in array. 

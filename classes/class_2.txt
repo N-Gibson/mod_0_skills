@@ -4,22 +4,22 @@ Attributes:
 
 			Number of ingredient (integer)
 
-			Type of ingredient (string)
+			Type of ingredient (array)
+
+			Plate (string)
 
 			Complete (boolean)
 
-			Input to computer (boolean)
-
-
+		
 Methods: 
 
-			How many ingredients are in this dish? (the method calculates how many ingredients are in a specific dish, modifies attribute: number of ingredients)
+			add_ingredient (modifies 'number of ingredients')
 
-			What ingredients are in this dish? (modifies the kind of ingredients required to make a specific dish, modifies attribute: type of ingredient)
+			add_ingredient_type (modifies 'type of ingredient')
 
-			Has the dish been made? (calculates whether or not a dish is completed, modifies attribute: complete)
+			plate_type (modifies 'plate' attribute)
 
-			Hasthe dish has been ordered/ finished? (assesses whether or not the dish has been entered into the computer either before or after its been made, modifies attribute: input to computer)
+			serve_dish (modifies 'complete' attribute)
 
 
 
